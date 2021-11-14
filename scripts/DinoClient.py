@@ -10,8 +10,9 @@ family = ['Saurischia','Herrerasauridae','Eoraptor', 'Sauropodomorpha', ' Therop
  'Ornithischia', 'Pisanosaurus','Heterodontosauridae','Thyreophora','Cerapoda']
 period = ['Triassic', 'Jurassic', 'Cretaceous']
 
+
 x = random.randint(0,9)
-y = random.randint(0,3)
+y = random.randint(0,2)
 
 def dino_facts_client(a):
     rospy.wait_for_service('dino_facts')
