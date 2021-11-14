@@ -1,2 +1,1 @@
-# ROS-FirstLab-DinoRandomaizer
-hello
+# ROS-FirstLab-DinoRandomaizer 
