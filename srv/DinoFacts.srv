@@ -1,0 +1,6 @@
+#must contain one string for request
+string a
+---
+#and one for response
+string b
+
