@@ -50,6 +50,7 @@ Examples Using rosrun
    2. output from publisher console = "Requesting facts about Rosrex"
    3. output from publisher console = "Fact about Rosrex is ready"
    4. output from subscriber console = "Rosrex belonged to the  Theropoda family and lived in the Cretaceous" 
+
 Examples Using rosservice
 =====================
 1. Initial
