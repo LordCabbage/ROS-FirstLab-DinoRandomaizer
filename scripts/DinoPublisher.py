@@ -18,7 +18,7 @@ def dino_facts_client(a):
 def usage():
     return "%s"%sys.argv[0]
 
-if __name__ == '__main__':
+def dino_publisher():
     if len(sys.argv) == 2:
         a = (sys.argv[1])
     else:
@@ -30,3 +30,6 @@ if __name__ == '__main__':
     print("Requesting facts about %s"%name)
     print("Fact about %s is ready"%name)
     pub.publish(name)
+
+if __name__ == '__main__':
+    dino_publisher()
