@@ -28,7 +28,7 @@ Run
 5. Open other terminal
 6. cd <your_ros_workspace>
 7. source devel/setup.bash
-8. rosrun ros_lab_dino DinoPublisher.py + 'any word'
+8. rosrun ros_lab_dino DinoPublisher.py 'any word'
 
 Rosservice
 =====================
