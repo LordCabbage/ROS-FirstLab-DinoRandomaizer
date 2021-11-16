@@ -6,6 +6,12 @@ Install
 1. cd <your_ros_workspace>/src
 2. git clone https://github.com/LordCabbage/ROS-FirstLab-DinoRandomaizer
 
+"/usr/bin/env: python: No such file or directory" problem solution 
+=====================
+run this commands:
+1. whereis python3
+2. sudo ln -s /usr/bin/python3 /usr/bin/python
+
 Build
 =====================
 1. cd <your_ros_workspace>
@@ -17,11 +23,11 @@ Run
 1. Open other terminal
 2. cd <your_ros_workspace>
 3. source devel/setup.bash
-4. rosrun ROS-FirstLab-DinoRandomaizer DinoServer.py
+4. rosrun ros_lab_dino DinoSubscriber.py
 5. Open other terminal
 6. cd <your_ros_workspace>
 7. source devel/setup.bash
-8. rosrun ROS-FirstLab-DinoRandomaizer DinoClient.py + 'any word'
+8. rosrun ros_lab_dino DinoPublisher.py + 'any word'
 
 Rosservice
 =====================
@@ -29,7 +35,7 @@ Rosservice
 1. Open other terminal
 2. cd <your_ros_workspace>
 3. source devel/setup.bash
-4. rosrun ROS-FirstLab-DinoRandomaizer DinoServer.py
+4. rosrun ros_lab_dino DinoSubscriber.py
 5. Open other terminal
 6. cd <your_ros_workspace>
 7. source devel/setup.bash
@@ -40,12 +46,12 @@ Examples Using rosrun
 1. Initial subscriber with server
    1. cd <your_ros_workspace>
    2. source devel/setup.bash
-2. rosrun ROS-FirstLab-DinoRandomaizer DinoSubscriber.py
+2. rosrun ros_lab_dino DinoSubscriber.py
    1. output from subscriber console = "Ready to give you true facts"
 3. Initial publisher with client
    1. cd <your_ros_workspace>
    2. source devel/setup.bash
-4. rosrun ROS-FirstLab-DinoRandomaizer DinoPublisher.py ros
+4. rosrun ros_lab_dino DinoPublisher.py ros
    1. output from subscriber console = "Returning real name of ros"
    2. output from publisher console = "Requesting facts about Rosrex"
    3. output from publisher console = "Fact about Rosrex is ready"
@@ -56,7 +62,7 @@ Examples Using rosservice
 1. Initial
    1. cd <your_ros_workspace>
    2. source devel/setup.bash
-2. rosrun ROS-FirstLab-DinoRandomaizer DinoSubscriber.py
+2. rosrun ros_lab_dino DinoSubscriber.py
    1. output from subscriber console = "Ready to give you true facts"
 3. Initial service
    1. cd <your_ros_workspace>
