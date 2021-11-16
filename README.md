@@ -8,9 +8,10 @@ Install
 
 "/usr/bin/env: python: No such file or directory" problem solution 
 =====================
-run this commands:
+Run this commands:
 1. whereis python3
-2. sudo ln -s /usr/bin/python3 /usr/bin/python
+Then create a symlink to it like this:
+3. sudo ln -s /usr/bin/python3 /usr/bin/python
 
 Build
 =====================
