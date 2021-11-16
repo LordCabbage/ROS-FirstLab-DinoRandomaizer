@@ -13,11 +13,6 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
 )
 
-## Generate messages in the 'msg' folder
- add_message_files(
-  FILES
- )
-
 ## Generate services in the 'srv' folder
  add_service_files(
    FILES
@@ -32,7 +27,6 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-  INCLUDE_DIRS include
   LIBRARIES ros_lab_dino
   CATKIN_DEPENDS rospy std_msgs message_runtime
   DEPENDS system_lib
