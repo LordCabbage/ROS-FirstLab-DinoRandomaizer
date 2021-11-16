@@ -10,7 +10,7 @@ Install
 =====================
 Run this commands:
 1. whereis python3
-Then create a symlink to it like this:
+2. Then create a symlink to it like this:
 3. sudo ln -s /usr/bin/python3 /usr/bin/python
 
 Build
